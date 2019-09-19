@@ -1,5 +1,6 @@
 package lab2;
 import java.util.ArrayList;
+
 public class AddressBook {
 	
 	private ArrayList <BuddyInfo> addressBook; //for my collection of BuddyInfo Objects
@@ -15,5 +16,10 @@ public class AddressBook {
 	public static void main(String[] args) {
 		//TODO Auto-generated method stub
 		System.out.println("Address Book");
+		BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
+		AddressBook addressBook = new AddressBook();
+	    addressBook.addBuddy(buddy);
+	    addressBook.removeBuddy(null);
+		
 	}
 }

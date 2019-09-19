@@ -4,7 +4,11 @@ public class BuddyInfo {
 	private String Name;
 	private String address;
 	private int phone_number;
-
+	
+	
+	public BuddyInfo(String a, String b, String c) {
+		//empty constructor 
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello world!");
