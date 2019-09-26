@@ -12,7 +12,7 @@ public class BuddyInfo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello world!");
-		BuddyInfo name = new BuddyInfo();
+		BuddyInfo name = new BuddyInfo("", "", "");
 		System.out.println(name.getName("Homer"));
 		
 	}
@@ -30,7 +30,7 @@ public class BuddyInfo {
 	}
 
 	public void setAddress(String address) {
-		this.address = address;
+		this.address = address; //returns address that is given as new address
 	}
 
 	public int getPhone_number() {
@@ -40,5 +40,8 @@ public class BuddyInfo {
 	public void setPhone_number(int phone_number) {
 		this.phone_number = phone_number;
 	}
+	
+	
+	
 
 }
